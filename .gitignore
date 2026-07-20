@@ -18,3 +18,4 @@ Thumbs.db
 
 # Dependencies (in case installed at root)
 node_modules/
+dist/

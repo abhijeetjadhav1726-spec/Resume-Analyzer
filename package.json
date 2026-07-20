@@ -1,0 +1,12 @@
+{
+  "name": "resume-analyzer-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "Frontend",
+    "Backend"
+  ],
+  "scripts": {
+    "build": "npm run build -w Frontend && cp -R Frontend/dist ./dist"
+  }
+}
